@@ -20,7 +20,3 @@ test {
 application {
     mainClass = 'com.example.Main'
 }
-tasks.register('copyWebsite', Copy) {
-    from 'src/main/resources/website'
-    into 'docs'
-}
